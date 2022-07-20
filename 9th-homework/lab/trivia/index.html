@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            // function changeColor = (button) => {
+            //     button.style.backgroundColor = "green"
+            // }
+            document.addEventListener("DOMContentLoaded",() => {
+                let button_part_1 = document.querySelector(".correct_choice")
+                button_part_1.addEventListener("click", () => {
+                    button_part_1.style.backgroundColor = "green";
+                    document.querySelector("#consult_1").innerHTML = "Correct";
+                });
+                let button_part_1_incorrects = document.querySelectorAll(".incorrect_choice");
+                // console.log(button_part_1_incorrects);
+                let length_incorrects = button_part_1_incorrects.length;
+                // button_part_1_incorrects.map((item, index) => {
+                //     item.addEventListener("click", () => {
+                //     item.style.backgroundColor = "red";
+                //     document.querySelector("#consult_1").innerHTML = "Incorrect";
+                //     })
+                // });
+                for (let i = 0; i < length_incorrects; i++) {
+                    button_part_1_incorrects[i].addEventListener("click", () => {
+                    button_part_1_incorrects[i].style.backgroundColor = "red";
+                    document.querySelector("#consult_1").innerHTML = "Incorrect";
+                    })
+                }
+
+                document.querySelector("#btn").addEventListener("click", () => {
+                    let result = document.querySelector("#answer");
+                    console.log(result);
+                    if (result.value === "NULL") {
+                        result.style.background = "green";
+                        document.querySelector("#consult_2").innerHTML = "Correct";
+                    } else {
+                        result.style.background = "red";
+                        document.querySelector("#consult_2").innerHTML = "Incorrect";
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the approximate ratio of people to sheep in New Zealand</h3>
+                <h4 id="consult_1"></h4>
+                <button class="correct_choice">6 people per 1 sheep</button>
+                <button class="incorrect_choice">3 people per 1 sheep</button>
+                <button class="incorrect_choice">1 people per 1 sheep</button>
+                <button class="incorrect_choice">1 people per 3 sheep</button>
+                <button class="incorrect_choice">1 people per 6 sheep</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+                <h4 id="consult_2"></h4>
+                <input id="answer" type="text" /><button id="btn">Check Answer</button>
+            </div>
+        </div>
+    </body>
+</html>
