@@ -1,0 +1,26 @@
+.poem-body {
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+.poem-title {
+  font-size: 27px;
+  font-weight: 800;
+}
+.poet-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header {
+  background-color: #477bff;
+  color: #fff;
+  /* margin-bottom: 2rem; */
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
