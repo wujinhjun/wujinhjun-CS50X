@@ -1,4 +1,4 @@
-# wujinhjun's CS50 assignment
+# CS50X assignment in 2022
 
 Because I can't commit my code to the [me50/wujinhjun](https://github.com/me50/wujinhjun/tree/main) via git, I have to commit them to my repository as a learning record for me;
 As the same time, this course does not seem to strictly prohibit open source, so maybe my actions don't break the rules
