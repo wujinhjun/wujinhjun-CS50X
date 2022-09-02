@@ -1,7 +1,16 @@
 # CS50X assignment in 2022
 
+This is an open source course in the [edx](https://www.edx.org/) by Harvard
+Can enroll by this link [CS50X)](https://cs50.harvard.edu/x/2022/)
+
+***
+
 Because I can't commit my code to the [me50/wujinhjun](https://github.com/me50/wujinhjun/tree/main) via git, I have to commit them to my repository as a learning record for me;
 As the same time, this course does not seem to strictly prohibit open source, so maybe my actions don't break the rules
+
+***
+
+## the content navigation
 
 [Week0: This is the assignment 1](./1st-homework/): a simple mini-game by the scratch
 
@@ -22,5 +31,7 @@ As the same time, this course does not seem to strictly prohibit open source, so
 [week8: This is the assignment 9](./9th-homework/): a simple website by bootstrap. Of course, it is just a simple test and not a real goal.
 
 [week9: This is the assignment 10](./10th-homework/): a web system using flask & sql & html
+
+***
 
 It's a bit of pity that as of now, I haven't finished every assignment. Because I haven't had time to do the final project. According to the requirements of the course, my idea is to make a simple markdown editing software, maybe with the function of cloud synchronization. Hope for a good performance.
