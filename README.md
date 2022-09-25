@@ -39,3 +39,6 @@ It's a bit of pity that as of now, I haven't finished every assignment. Because 
 ***
 
 [This is final project](https://github.com/wujinhjun/markdown-editor): A simple markdown editor.
+
+***
+Also, I'd like to say that I have registered for the cs50W course, and I will also put my project code on the github, which is [the repository address](https://github.com/wujinhjun/wujinhjun-CS50W).
